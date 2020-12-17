@@ -1,0 +1,11 @@
+
+.hero-container {
+    background: url('./Images/Earth.jpg') center center/cover
+    no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    
+    
+    
+}
