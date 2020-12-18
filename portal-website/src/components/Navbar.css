@@ -48,10 +48,9 @@
 
 .navbar-logo {
   position: absolute;
-  top: 10;
-  left: 10;
   height: 60px;
-  
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .logo {
@@ -70,11 +69,14 @@
 
 .fa-bars {
   color:rgb(199, 199, 199);
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .fa-times {
   color:rgb(199, 199, 199);
-  font-size: 2rem;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .nav-links-mobile {
