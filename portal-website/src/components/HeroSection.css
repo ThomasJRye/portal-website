@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Exo;
+    src: url(Exo2-ExtraLight.otf);  /* first font == regular */
+  }
 
 .hero-container {
     background: url('./Images/Earth.jpg') center center/cover
@@ -8,6 +12,19 @@
 }
 
 .title {
-    z-index: 10;
-    color: rgb(196, 39, 39);
+
+    color:white;
+    font-family: Exo;
+    margin: 20px;
+    top: 40%;
+    position: absolute;
+    margin-left: 10rem;
+    margin-right: 10rem
+
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        margin-left: 4rem;
+    }
 }
