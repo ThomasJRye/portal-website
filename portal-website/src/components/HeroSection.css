@@ -8,11 +8,56 @@
     no-repeat;
     background-size: cover;
     height: 100vh;
-    
+}
+
+
+
+.nero-container {
+    background: url('./Images/mk2+Render+v5.png') center center/cover
+    no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nero-title {
+    color:white;
+    font-family: Exo;
+    margin: 20px;
+    position: absolute;
+    padding-top: 21rem; 
+    margin-left: 9rem;
+    margin-right: 10rem
+}
+
+.nero-Button {
+    margin-left: 10rem;
+    padding-top: 25rem
+}
+
+
+.novus-container {
+    background: url('./Images/20200806_221623.png') center center/cover
+    no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.novus-title {
+    color:white;
+    font-family: Exo;
+    margin: 20px;
+    position: absolute;
+    padding-top: 21rem; 
+    margin-left: 9rem;
+    margin-right: 10rem
+}
+
+.novus-Button {
+    margin-left: 10rem;
+    padding-top: 25rem
 }
 
 .title {
-
     color:white;
     font-family: Exo;
     margin: 20px;
@@ -20,8 +65,9 @@
     position: absolute;
     margin-left: 10rem;
     margin-right: 10rem
-
 }
+
+
 
 @media screen and (max-width: 600px) {
     .title {
