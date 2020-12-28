@@ -6,8 +6,8 @@
 
 .footer_container{
     display: flex;
-    background-color: rgb(255, 255, 255);
-    height: 50vh;
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
 }
 
 #first{
@@ -32,7 +32,7 @@
     color: whitesmoke;
     text-decoration: none;
     margin-left: 10px;
-
+    margin-top: 5px;
 }
 .fa-instagram {
     background: black;
