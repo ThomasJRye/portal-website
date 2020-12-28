@@ -4,6 +4,20 @@ import '../App.css'
 import { Button } from './Button'
 import './HeroSection.css'
 
+import Ellingsen from './Images/Partners/Ellingsen.png';
+import UiO from './Images/Partners/UIOBlack.png';
+import Insj from './Images/Partners/Insj.png';
+import Kjeller from './Images/Partners/Kjeller.jpg';
+import Meteor from './Images/Partners/Meteor.png';
+import Romsenter from './Images/Partners/Space_Agency.png';
+import OsloMET from './Images/Partners/OsloMET.jpg';
+import Dspace from './Images/Partners/4Dspace.png';
+import Anders from './Images/Partners/Anders_Brennhagen.jpg';
+import Ketil from './Images/Partners/Ketil_Røed.jpeg';
+import Rasmus from './Images/Partners/Rasmus.jpg';
+
+
+
 
 function HeroSection() {
     const [click, setClick] = useState(false);
@@ -43,16 +57,22 @@ function HeroSection() {
                     {Button && <Button buttonStyle='btn--outline'>Learn More</Button>}
                 </div>
             </div>
+            <div className='text'>
+                <h1>asdfasdf</h1>
+
+            </div>
             <div className="sponsors_container">
                 <div className="centered">
                     <h1>Meet our partners</h1>
-                    <img class="Ellingsen" src="./Images/Partners/Ellingsen.png" alt="Ellingsen"/>
-                    <img class="UIO" src="./Images/Partners/UIOBlack.png" alt="UIO"/>        
-                    <img class="Insj" src="./Images/Partners/Insj.png" alt="Insj"/>
-                    <img class="Dspace" src="./Images/Partners/4Dspace.png" alt="Dspace"/>
-                    <img class="Meteor" src="./Images/Partners/Meteor Logo.png" alt="Meteor"/>
-                    <img class="Kjeller" src="./Images/Partners/Kjeller.jpg" alt="Kjeller"/>                
-                    <img class="Romsenter" src="resources/images/Partners/Romsenter.png" alt="Romsenter"/>
+                    <img class="Ellingsen" src={Ellingsen} alt="Ellingsen"/>
+                    <br/>
+                    <img class="UIO" src={UiO} alt="UIO"/>        
+                    <img class="Insj" src={Insj} alt="Insj"/>
+                    <img class="Dspace" src={Dspace} alt="Dspace"/>
+                    <img class="OsloMET" src={OsloMET} alt="OsloMET"/>
+                    <img class="Meteor" src={Meteor} alt="Meteor"/>
+                    <img class="Kjeller" src={Kjeller} alt="Kjeller"/>                
+                    <img class="Romsenter" src={Romsenter} alt="Romsenter"/>
                 </div>
             </div>
         </>

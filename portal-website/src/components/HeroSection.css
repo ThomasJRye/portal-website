@@ -10,13 +10,21 @@
     height: 100vh;
 }
 
-
+.title {
+    color:white;
+    font-family: Exo;
+    margin: 20px;
+    top: 40%;
+    position: absolute;
+    margin-left: -20rem;
+    margin-right: 10rem
+}
 
 .nero-container {
     background: url('./Images/mk2+Render+v5.png') center center/cover
     no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
 }
 
 .nero-title {
@@ -25,7 +33,7 @@
     margin: 20px;
     position: absolute;
     padding-top: 21rem; 
-    margin-left: 9rem;
+    margin-left: -20rem;
     margin-right: 10rem
 }
 
@@ -39,7 +47,7 @@
     background: url('./Images/20200806_221623.png') center center/cover
     no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
 }
 
 .novus-title {
@@ -47,27 +55,89 @@
     font-family: Exo;
     margin: 20px;
     position: absolute;
-    padding-top: 21rem; 
-    margin-left: 9rem;
+    padding-top: 25rem; 
+    margin-left: -20rem;
     margin-right: 10rem
 }
 
 .novus-Button {
     margin-left: 10rem;
-    padding-top: 25rem
+    padding-top: 29rem
 }
 
-.title {
-    color:white;
+
+.sponsors_container{
+    position: relative;
+    height: auto;
+    padding-bottom: 20px
+}
+
+.text {
+    color: white;
     font-family: Exo;
-    margin: 20px;
-    top: 40%;
-    position: absolute;
-    margin-left: 10rem;
-    margin-right: 10rem
+
+}
+
+h1 {
+    font-family: Exo;
+    padding-left: 30rem;
+}
+
+.Ellingsen {
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    max-width: 100%;
+  }
+
+.UIO {
+  height: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 100%;
 }
 
 
+.Insj {
+  height: 200px;
+  padding-right: 40px;
+  max-width: 100%;
+}
+
+
+.Dspace {
+  height: 150px;
+  padding-right: 40px;
+  max-width: 100%;
+}
+
+.OsloMET {
+    height: 200px;
+    padding-right: 40px;
+    max-width: 100%;
+}
+
+.Meteor {
+  height: 160px;
+  padding-right: 20px;
+  max-width: 100%;
+}
+
+.Kjeller {
+  height: 150px;
+  max-width: 100%;
+
+}
+
+.Romsenter {
+    height: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+}
 
 @media screen and (max-width: 600px) {
     .title {

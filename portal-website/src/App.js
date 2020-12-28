@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css'
 import Home from './components/Pages/Home.js'
 import HeroSection from './components/HeroSection.js';
+import Footer from './components/Footer.js'
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/' exact component=
         {Home} />
       </Switch>
+      <Footer />
     </Router>
       
     </>
