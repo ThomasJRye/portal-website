@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
-import logo from './Images/Logo.png'
+import logo from './Pages/Images/Logo.png'
 import { Button } from './Button';
 import './Navbar.css';
 
@@ -36,7 +36,7 @@ function NavBar() {
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <br></br>
                         <li className='nav-item'>
-                            <Link to='/Home' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li>

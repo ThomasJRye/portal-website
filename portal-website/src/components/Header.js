@@ -1,5 +1,5 @@
 import React from 'react'
-import earth from './Images/Earth.jpg'
+import earth from './Pages/Images/Earth.jpg'
 import './myStyles.css'
 
 

@@ -4,17 +4,17 @@ import '../App.css'
 import { Button } from './Button'
 import './HeroSection.css'
 
-import Ellingsen from './Images/Partners/Ellingsen.png';
-import UiO from './Images/Partners/UIOBlack.png';
-import Insj from './Images/Partners/Insj.png';
-import Kjeller from './Images/Partners/Kjeller.jpg';
-import Meteor from './Images/Partners/Meteor.png';
-import Romsenter from './Images/Partners/Space_Agency.png';
-import OsloMET from './Images/Partners/OsloMET.jpg';
-import Dspace from './Images/Partners/4Dspace.png';
-import Anders from './Images/Partners/Anders_Brennhagen.jpg';
-import Ketil from './Images/Partners/Ketil_Røed.jpeg';
-import Rasmus from './Images/Partners/Rasmus.jpg';
+import Ellingsen from './Pages/Images/Partners/Ellingsen.png';
+import UiO from './Pages/Images/Partners/UIOBlack.png';
+import Insj from './Pages/Images/Partners/Insj.png';
+import Kjeller from './Pages/Images/Partners/Kjeller.jpg';
+import Meteor from './Pages/Images/Partners/Meteor.png';
+import Romsenter from './Pages/Images/Partners/Space_Agency.png';
+import OsloMET from './Pages/Images/Partners/OsloMET.jpg';
+import Dspace from './Pages/Images/Partners/4Dspace.png';
+import Anders from './Pages/Images/Partners/Anders_Brennhagen.jpg';
+import Ketil from './Pages/Images/Partners/Ketil_Røed.jpeg';
+import Rasmus from './Pages/Images/Partners/Rasmus.jpg';
 
 
 
@@ -62,9 +62,13 @@ function HeroSection() {
 
             </div>
             <div className="sponsors_container">
+                <div className="sponsor-title">
+                    <h1>Partners</h1>
+                </div>
                 <div className="centered">
-                    <h1>Meet our partners</h1>
                     <img class="Ellingsen" src={Ellingsen} alt="Ellingsen"/>
+                    <br/>
+                    <img class="Romsenter" src={Romsenter} alt="Romsenter"/>
                     <br/>
                     <img class="UIO" src={UiO} alt="UIO"/>        
                     <img class="Insj" src={Insj} alt="Insj"/>
@@ -72,7 +76,7 @@ function HeroSection() {
                     <img class="OsloMET" src={OsloMET} alt="OsloMET"/>
                     <img class="Meteor" src={Meteor} alt="Meteor"/>
                     <img class="Kjeller" src={Kjeller} alt="Kjeller"/>                
-                    <img class="Romsenter" src={Romsenter} alt="Romsenter"/>
+                    
                 </div>
             </div>
         </>
