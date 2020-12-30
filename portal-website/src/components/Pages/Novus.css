@@ -3,3 +3,72 @@
     src: url(Exo2-Light.ttf);  /* first font == regular */
   }
   
+.Title {
+  background-color: rgb(75, 75, 75);
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px
+}  
+
+.pelle {
+  float:left; 
+  padding: 90px;
+  background-color: rgb(75, 75, 75);
+  height: 800px;
+}
+
+.pelle-text-1 {
+  font-family: Exo;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  text-align: center;
+  padding-top: 250px;
+  padding-left: 400px;
+  padding-right: 300px;
+  padding-bottom: 100px;
+  font-size: 40px
+}
+
+.pelle-text-2 {
+  font-family: Exo;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 400px;
+  padding-right: 300px;
+  padding-bottom: 200px;
+  font-size: 40px
+}
+
+.launch {
+  float:right; 
+  padding: 40px;
+  padding-right: 100px;
+  background-color: rgb(75, 75, 75);
+  height: 600px;
+}
+
+.launch-text {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 220px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 500px;
+  background-color: rgb(75, 75, 75);
+
+}
+
+.join-container {
+  font-family: Exo;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 100px;
+}

@@ -151,7 +151,124 @@
 
 
 @media screen and (max-width: 600px) {
-    .title {
-        margin-left: 4rem;
-    }
+  .title {
+    margin-left: 0rem;
+}
+
+.hero-container {
+    background: url('./Pages/Images/EarthMobile.jpg');
+    height: 90vh;
+    z-index:-1;
+}
+
+.nero-container {
+    background: url('./Pages/Images/mk2Mobile.png');
+    background-size: cover;
+    z-index: 1;
+}
+
+.nero-title {
+  color:white;
+  font-family: Exo;
+  margin: 0px;
+  position: absolute;
+  margin-right: 50rem;
+  margin-left: 2rem
+}
+
+.nero-Button {
+  margin-left: 2rem;
+  padding-top: 45rem
+}
+
+.novus-container {
+  background: url('./Pages/Images/novusFrame.jpg');
+  position: left;
+  height:90vh;
+  z-index:-1;
+  margin-top: 0;
+}
+
+.novus-title {
+  position: absolute;
+  padding-top: 34rem;
+  margin-right: 50rem;
+  margin-left: 2rem
+}
+
+.novus-Button {
+  margin-left: 2rem;
+  padding-top: 40rem
+}
+
+.sponsors_container{
+    position: relative;
+    height: auto;
+    padding-bottom: 40px;
+    background-color:rgb(53, 53, 53);
+    padding-left:0px;
+    padding-right:0px;
+    z-index: -1;
+}
+
+.sponsor-title {
+    text-align: center;
+    font-family: Exo;
+    color: white;
+    font-size: 30px;
+}
+
+.Ellingsen {
+    padding-top: 20px;
+    display: block;
+    height: 30px;
+  }
+
+  .Romsenter {
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110px;
+
+}
+
+.UIO {
+  height: 200px;
+  padding-left: auto;
+  padding-right: auto;
+  max-width: 100%;
+}
+
+
+.Insj {
+  height: 200px;
+  padding-right: 40px;
+  max-width: 100%;
+}
+
+
+.Dspace {
+  height: 100px;
+  padding-right: 0px;
+  max-width: 100%;
+}
+
+.OsloMET {
+    height: 200px;
+    padding-right: 40px;
+    max-width: 100%;
+}
+
+.Meteor {
+  height: 160px;
+  padding-right: 20px;
+  max-width: 100%;
+}
+
+.Kjeller {
+  height: 150px;
+  max-width: 100%;
+
+}
 }

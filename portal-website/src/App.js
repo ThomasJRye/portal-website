@@ -24,6 +24,14 @@ function App() {
         {Home} />
         <Route path="/nero" component={Nero}/>
         <Route path="/novus" component={Novus}/>
+        <Route path='/novus-form' component={() => { 
+          window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfepQywQLImOzJilq_fm4XkvsBqY38a0Sa9Wa1IurXmBBZazA/viewform'; 
+          return null;
+            }}/>    
+        <Route path='/nero-form' component={() => { 
+          window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSet7XDXDRVdk09m95aVcvt9UjkjC9WvvBtGpuxEE0dVc5Mumw/viewform'; 
+          return null;
+            }}/>    
       </Switch>
       <Footer />
     </Router>

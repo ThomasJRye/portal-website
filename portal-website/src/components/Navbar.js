@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import logo from './Pages/Images/Logo.png'
-import { Button } from './Button';
+import { Button } from './Pages/Button';
 import './Navbar.css';
 
 function NavBar() {

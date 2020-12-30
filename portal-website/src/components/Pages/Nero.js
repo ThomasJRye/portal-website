@@ -1,5 +1,6 @@
 import React from 'react';
 import './Nero.css'
+import { Button } from './Button'
 import rocket from './Images/Rocket.png'
 import groups from './Images/work-images/groups.png'
 import engagement from './Images/work-images/engagement.png'
@@ -84,6 +85,25 @@ It is what makes us a team.
                 <h1 className='ketil-text'>
                     Associate professor in electronics at the university of Oslo                 
                 </h1>
+            </div>
+
+            <div className='join-container'>
+                <h1>Want to join us?</h1>
+                <p>
+                    We're always looking for people to join. 
+                </p>
+                <p>
+                Wether you are a technical or non-technical student. 
+                </p>
+
+                <div className = 'join-Button'>
+                    {Button && <Button 
+                        buttonStyle='btn--outline' 
+                        destination='/novus-form'
+                        buttonSize='btn--large'
+                        >Join us
+                        </Button>}
+                </div>
             </div>
         </>
     );

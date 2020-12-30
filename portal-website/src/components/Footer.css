@@ -5,6 +5,7 @@
 }
 
 .footer_container{
+    font-family: Exo;
     display: flex;
     background-color: rgb(0, 0, 0);
     height: 20vh;
@@ -34,7 +35,9 @@
     background: black;
 }
 
-
+.h2 {
+    
+}
 
 .fa-linkedin {
     background: black;
@@ -54,16 +57,16 @@
 @media screen and (max-width: 600px) {
     .footer_container{
         display: block;
-        height: 100vh;
+        height: 60vh;
     }
     .fa-instagram{
         margin-left: 2px;
     }
     .fa-linkedin{
-        margin-left: 2px;
+        margin-left: 10px;
     }
     .column{
-        width: 100vw;
+        width: auto;
         padding-bottom: 20px;
     }
     #first{

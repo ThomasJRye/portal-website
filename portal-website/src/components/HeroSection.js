@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import '../App.css'
-import { Button } from './Button'
+import { Button } from './Pages/Button'
 import './HeroSection.css'
 
 import Ellingsen from './Pages/Images/Partners/Ellingsen.png';
@@ -46,7 +46,7 @@ function HeroSection() {
                     <h1>Project Nero</h1> 
                 </div>
                 <div className = 'nero-Button'>
-                    {Button && <Button buttonStyle='btn--outline'>Learn More</Button>}
+                    {Button && <Button buttonStyle='btn--outline' destination='/Nero'>Learn More</Button>}
                 </div>
             </div>
             <div className='novus-container'>
@@ -54,7 +54,7 @@ function HeroSection() {
                     <h1>Project Novus</h1> 
                 </div>
                 <div className = 'novus-Button'>
-                    {Button && <Button buttonStyle='btn--outline'>Learn More</Button>}
+                    {Button && <Button buttonStyle='btn--outline' destination='/Novus'>Learn More</Button>}
                 </div>
             </div>
             <div className='text'>
@@ -66,6 +66,7 @@ function HeroSection() {
                     <h1>Partners</h1>
                 </div>
                 <div className="centered">
+                    {/*
                     <img class="Ellingsen" src={Ellingsen} alt="Ellingsen"/>
                     <br/>
                     <img class="Romsenter" src={Romsenter} alt="Romsenter"/>
@@ -76,7 +77,7 @@ function HeroSection() {
                     <img class="OsloMET" src={OsloMET} alt="OsloMET"/>
                     <img class="Meteor" src={Meteor} alt="Meteor"/>
                     <img class="Kjeller" src={Kjeller} alt="Kjeller"/>                
-                    
+                    */}
                 </div>
             </div>
         </>
