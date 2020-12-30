@@ -4,6 +4,7 @@ import { Button } from './Button'
 import rocket from './Images/Rocket.png'
 import groups from './Images/work-images/groups.png'
 import engagement from './Images/work-images/engagement.png'
+import engagementMobile from './Images/work-images/engagementMobile.png'
 import plumbing from './Images/work-images/plumbing.png'
 import sveising from './Images/work-images/sveising.png'
 import software from './Images/work-images/Eirik.png'
@@ -11,6 +12,7 @@ import rasmus from './Images/Partners/Rasmus.jpg'
 import ketil from './Images/Partners/Ketil_Røed.jpeg'
 import anders from './Images/Partners/Anders_Brennhagen.jpg'
  
+
 const Nero = () => {
     return (
         <>
@@ -40,6 +42,7 @@ const Nero = () => {
                 <p className='groups-text'>
                 Working in groups for discussing ideas and concepts is a big part of the daily work on the project. This is important to make sure all systems function in relation to each other and that every team is always on the same page about our progress.
                 </p>
+                
                 <img class="engagement" src={engagement} alt="engagement"/>
                 <p className='engagement-text'>
                 Engagement is one of our most treasured values. It ensures that our members are invested in the project as a whole and not just their department or current task. 
@@ -88,14 +91,14 @@ It is what makes us a team.
             </div>
 
             <div className='join-container'>
-                <h1>Want to join us?</h1>
+                <h2>Want to join us?</h2>
                 <p>
                     We're always looking for people to join. 
                 </p>
                 <p>
                 Wether you are a technical or non-technical student. 
                 </p>
-
+                <br />
                 <div className = 'join-Button'>
                     {Button && <Button 
                         buttonStyle='btn--outline' 
