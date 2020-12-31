@@ -102,5 +102,19 @@
   transition: 250ms;
 }
   @media screen and (max-width: 960px) {
-    
+    .nav-menu {
+      width: 80%;
+    }
+
+    .nav-links {
+      width: 80%;
+
+    }
+
+    .nav-links:hover {
+      background-color: #fff;
+      color: #242424;
+      border-radius: 0.1;
+      width: 70%;
+    }
   }

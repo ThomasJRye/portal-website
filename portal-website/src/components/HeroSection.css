@@ -167,11 +167,9 @@
 }
 
 .Maskin {
-  height: 120px;
+  height: 160px;
+  padding-right: 20px;
   max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 
@@ -193,17 +191,17 @@
 }
 
 .nero-title {
-  color:white;
-  font-family: Exo;
+
   margin: 0px;
   position: absolute;
   margin-right: 50rem;
-  margin-left: 2rem
+  margin-left: 2rem;
+  padding-top: 24rem;
 }
 
 .nero-Button {
   margin-left: 2rem;
-  padding-top: 45rem
+  padding-top: 30rem
 }
 
 .novus-container {
@@ -215,15 +213,17 @@
 }
 
 .novus-title {
+
+  margin: 0px;
   position: absolute;
-  padding-top: 34rem;
-  margin-right: 50rem;
-  margin-left: 2rem
+  margin-right: 30rem;
+  margin-left: 2rem;
+  padding-top: 20rem;
 }
 
 .novus-Button {
   margin-left: 2rem;
-  padding-top: 40rem
+  padding-top: 26rem
 }
 
 

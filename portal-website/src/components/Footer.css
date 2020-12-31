@@ -5,6 +5,7 @@
 }
 
 .footer_container{
+    padding-top: 10px;
     font-family: Exo;
     display: flex;
     background-color: rgb(0, 0, 0);
@@ -31,11 +32,6 @@
     background: black;
 }
 
-.a {
-    background: black;
-}
-
-
 
 .fa-linkedin {
     background: black;
@@ -43,6 +39,12 @@
     text-decoration: none;
     margin-left: 10px;
     margin-top: 5px;
+    height: 10px;
+}
+
+.fa.fa-linkedin:before {
+    content: "\f0e1";
+    height: 500px;
 }
 .fa-instagram {
     background: black;
