@@ -9,8 +9,12 @@ const Novus = () => {
        <>
            <div className='Title'>
                <h1>Project Novus</h1>
+               <p>
+                Two months prior to the official founding of Portal, we launched a total of four model rockets. As an attempt to learn more electronics and programing, it engaged us like no project before. Novus is a continuation of what sparked our interests and drove us to begin Portal.
+               </p>
            </div>
 
+            
            <div className='pelle-container'>
                <img class="pelle" src={pelle} alt="pelle"/>
                <p className='pelle-text-1'>

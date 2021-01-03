@@ -16,18 +16,86 @@
 .top-text {
   font-family: Exo;
   background-color: rgb(75, 75, 75);
-  color: white;
   text-align: center;
   padding-left: 500px;
   padding-right: 500px;
-  font-size: 20px
+  font-size: 20px;
+  color: white;
 }
-.rocket-image {
+
+.rocket {
+  background: url('./Images/Rocket.png') no-repeat center;
   background-color: rgb(75, 75, 75);
-  text-align: center;
+  height: 2200px;
+}
+
+.rocket-text {
+  font-family: Exo;
+  color: white;
+  font-size: 25px;
+}
+
+.rocket-text p {
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 10px;
 
 }
 
+.rocket-text-left {
+  float: left;
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  padding-top: 440px;
+  padding-left: 200px;
+}
+
+.nitrogen-text {
+  margin-top: 117px;
+}
+
+.oxidizer-text {
+  margin-top: 355px;
+}
+
+.engine-plumbing-text {
+  margin-top: 487px;
+}
+
+.rocket-text-right {
+  float: right;
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  padding-right: 200px;
+}
+
+.parachute-text {
+  margin-top: 330px;
+}
+
+.electronics-text {
+  margin-top: 60px;
+}
+
+.nitrogen-plumbing-text {
+  margin-top: 32px;
+}
+
+.engine-plumbing-text {
+  margin-top: 487px;
+}
+
+.fuel-text {
+  margin-top: 665px;
+}
+
+.engine-text {
+  margin-top: 325px;
+}
 
 .our-work {
   background-color: rgb(75, 75, 75);
@@ -207,7 +275,7 @@
 
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
   Title {
     background-color: rgb(75, 75, 75);
     font-family: Exo;
@@ -226,17 +294,46 @@
     padding-right: 0px;
     font-size: 20px
   }
-  .rocket-image {
-    background-color: rgb(75, 75, 75);
-    text-align: center;
-  }
-  
-  .rocket {
-    height: 500px;
-    padding-left: 0px;
 
+  .rocket {
+    background: url('./Images/Rocket.png') no-repeat right;
+    background-color: rgb(75, 75, 75);
   }
-  
+
+  .rocket-text-right {
+    float: none;
+    position: absolute;
+  }
+
+  .rocket-text-left {
+    float: none;
+    position: absolute;
+    padding-left: 20px;
+  }
+
+  .rocket-text p {
+    width: 190px;
+    font-size: 15px;
+  }
+
+  .nitrogen-text {
+    margin-top: 135px;
+  }
+  .electronics-text {
+    margin-top: 115px;
+}
+
+  .fuel-text {
+    margin-top: 695px;
+  }
+
+  .engine-plumbing-text {
+    margin-top: 550px;
+}
+  .nitrogen-plumbing-text {
+    margin-top: 110px;
+  }
+
   .our-work {
     background-color: rgb(75, 75, 75);
   }
@@ -367,7 +464,7 @@
   .rasmus {
     float:none;
     padding-left: 0px;
-    height: 300px
+    height: 275px
   }
   
   .rasmus-title {
@@ -387,7 +484,7 @@
   .anders {
     float:none;
     padding-left: 0px;
-    height: 300px
+    height: 280px
   }
   
   .anders-title {

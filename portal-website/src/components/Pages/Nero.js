@@ -27,11 +27,44 @@ const Nero = () => {
                 </p>
                 <br></br>
                 <p>
-                    Below is an early render of the Nero rocket and explanations of some of the components. 
+                    Below is an early render of the Nero rocket. 
                 </p>
             </div>
-            <div className='rocket-image'>
-                <img class="rocket" src={rocket} alt="rocket"/>
+            <div className='rocket'>
+                <div className='rocket-text'>
+                    <div className='rocket-text-left'>
+                        <p className='payload-text'>
+                            4kg payload. TBD
+                        </p>
+                        <p className='nitrogen-text'>
+                            Pressurant - 200bar nitrogen
+                        </p>
+                        <p className='oxidizer-text'>
+                            14L oxidizer tank for storing Nitrous oxide at -40c and 25bar
+                        </p>
+                        <p className='engine-plumbing-text'>
+                            Plumbing for fuel and oxidizer. Contains pressure and temperature sensors, main valves, filters, and more.                
+                        </p>
+                    </div>
+                    
+                    <div className='rocket-text-right'>
+                        <p className='parachute-text'>
+                            Parachute and ejection charge
+                        </p>
+                        <p className='electronics-text'>
+                            Flight computer with processor, memory and telemetry 
+                        </p>
+                        <p className='nitrogen-plumbing-text'>
+                            Plumbing for nitrogen to pressurize propellant tanks. Contains regulators, valves, actuators and sensors 
+                        </p>
+                        <p className='fuel-text'>
+                            5L fuel tank for storing ethanol and water combination at 30 bar                
+                        </p>
+                        <p className='engine-text'>
+                            Regeratively cooled rocket engine. Designed to withstand 20bar and  3000C, it produces a thrust of 3.5kN for 11 seconds.
+                        </p>
+                    </div>
+                </div>
             </div>
 
             <div className='our-work'>
@@ -42,13 +75,11 @@ const Nero = () => {
                 <p className='groups-text'>
                 Working in groups for discussing ideas and concepts is a big part of the daily work on the project. This is important to make sure all systems function in relation to each other and that every team is always on the same page about our progress.
                 </p>
-                
                 <img class="engagement" src={engagement} alt="engagement"/>
                 <p className='engagement-text'>
                 Engagement is one of our most treasured values. It ensures that our members are invested in the project as a whole and not just their department or current task. 
 It is what makes us a team.
                 </p>
-                
                 <img class="sveising" src={sveising} alt="sveising"/>
                 <p className='sveising-text'>
                 Independent teamwork is the ability to make one’s own decisions while still working in groups so  all parts fit togheter. This is a highly treasured skill here at Portal, but often doesn’t come naturally.
@@ -96,7 +127,7 @@ It is what makes us a team.
                     We're always looking for people to join. 
                 </p>
                 <p>
-                Wether you are a technical or non-technical student. 
+                    Wether you are a technical or non-technical student. 
                 </p>
                 <br />
                 <div className = 'join-Button'>

@@ -107,6 +107,12 @@
     
 }
 
+.centered p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .Ellingsen {
     padding-top: 20px;
     display: block;
