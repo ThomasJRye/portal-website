@@ -42,7 +42,7 @@ const Novus = () => {
                 <div className = 'join-Button'>
                     {Button && <Button 
                         buttonStyle='btn--outline' 
-                        destination='/novus-form'
+                        destination='/nero-form'
                         buttonSize='btn--large'
                         >Join us
                         </Button>}
