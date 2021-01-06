@@ -1,6 +1,6 @@
 {
   "homepage": "https://thomasjrye.github.io/PortalWebsite/",
-  "name": "PortalWebsite",
+  "name": "portalwebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
