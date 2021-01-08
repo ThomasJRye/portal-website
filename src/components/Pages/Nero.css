@@ -1,0 +1,521 @@
+@font-face {
+    font-family: Exo;
+    src: url(Exo2-Light.ttf);  /* first font == regular */
+  }
+
+
+.Title {
+  background-color: rgb(75, 75, 75);
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 30px
+}
+
+.top-text {
+  font-family: Exo;
+  background-color: rgb(75, 75, 75);
+  text-align: center;
+  padding-left: 500px;
+  padding-right: 500px;
+  font-size: 20px;
+  color: white;
+}
+
+.rocket {
+  background: url('./Images/Rocket.png') no-repeat center;
+  background-color: rgb(75, 75, 75);
+  height: 2200px;
+}
+
+.rocket-text {
+  font-family: Exo;
+  color: white;
+  font-size: 25px;
+}
+
+.rocket-text p {
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.rocket-text-left {
+  float: left;
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  padding-top: 440px;
+  padding-left: 200px;
+}
+
+.nitrogen-text {
+  margin-top: 117px;
+}
+
+.oxidizer-text {
+  margin-top: 355px;
+}
+
+.engine-plumbing-text {
+  margin-top: 487px;
+}
+
+.rocket-text-right {
+  float: right;
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  padding-right: 200px;
+}
+
+.parachute-text {
+  margin-top: 330px;
+}
+
+.electronics-text {
+  margin-top: 60px;
+}
+
+.nitrogen-plumbing-text {
+  margin-top: 32px;
+}
+
+.engine-plumbing-text {
+  margin-top: 487px;
+}
+
+.fuel-text {
+  margin-top: 665px;
+}
+
+.engine-text {
+  margin-top: 325px;
+}
+
+.our-work {
+  background-color: rgb(75, 75, 75);
+}
+
+.work-title {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 60px
+  
+}
+
+.groups {
+  float:left; 
+  padding: 40px;
+}
+
+.groups-text {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+}
+
+.engagement {
+  float:right; 
+  padding: 40px;
+}
+
+.engagement-text {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+  
+}
+
+.sveising {
+  float:left; 
+  padding: 40px;
+}
+
+.sveising-text {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+}
+
+.plumbing {
+  float:right; 
+  padding: 40px;
+  padding-top: 200px;
+}
+
+.plumbing-text {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 400px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+}
+
+.software {
+  float:left; 
+  padding: 40px;
+}
+
+.software-text {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+}
+
+.advisors {
+  padding-top: 200px;
+  background-color: rgb(75, 75, 75);
+  text-align: center;
+  width: auto;
+  padding-bottom: 120px;
+}
+
+.advisor-title {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+
+.rasmus {
+  float: left; 
+  padding-left: 300px;
+  height: 300px
+}
+
+.rasmus-title {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.rasmus-text {
+  font-family: Exo;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 200px;
+
+}
+
+.anders {
+  float: left; 
+  padding-left: 300px;
+  height: 300px
+}
+
+.anders-title {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.anders-text {
+  font-family: Exo;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 200px;
+
+}
+
+.ketil {
+  float: left; 
+  padding-left: 300px;
+  height: 300px
+}
+
+.ketil-title {
+  font-family: Exo;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.ketil-text {
+  font-family: Exo;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 200px;
+
+}
+
+@media screen and (max-width: 1000px) {
+  Title {
+    background-color: rgb(75, 75, 75);
+    font-family: Exo;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-size: 30px
+  }
+  
+  .top-text {
+    font-family: Exo;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 20px
+  }
+
+  .rocket {
+    background: url('./Images/Rocket.png') no-repeat right;
+    background-color: rgb(75, 75, 75);
+  }
+
+  .rocket-text-right {
+    float: none;
+    position: absolute;
+  }
+
+  .rocket-text-left {
+    float: none;
+    position: absolute;
+    padding-left: 20px;
+  }
+
+  .rocket-text p {
+    width: 190px;
+    font-size: 15px;
+  }
+
+  .nitrogen-text {
+    margin-top: 135px;
+  }
+  .electronics-text {
+    margin-top: 115px;
+}
+
+  .fuel-text {
+    margin-top: 695px;
+  }
+
+  .engine-plumbing-text {
+    margin-top: 550px;
+}
+  .nitrogen-plumbing-text {
+    margin-top: 110px;
+  }
+
+  .our-work {
+    background-color: rgb(75, 75, 75);
+  }
+  
+  .work-title {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    font-family: Exo;
+    color: white;
+    text-align: center;
+    font-size: 30px
+    
+  }
+  
+  .groups {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px
+  }
+  
+  .groups-text {
+    font-family: Exo;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .engagement {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px
+  }
+  
+  .engagement-text {
+    font-family: Exo;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    
+  }
+  
+  .sveising {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    height: 220px;
+    float: none
+  }
+  
+  .sveising-text {
+    font-family: Exo;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .plumbing {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    height: 220px;
+    float:none;
+  }
+  
+  .plumbing-text {
+    font-family: Exo;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+  
+  .software {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+    float:none;
+
+  }
+  
+  .software-text {
+    font-family: Exo;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+  }
+  
+  .advisors {
+    padding-top: 20px;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    width: auto;
+    padding-bottom: 120px;
+  }
+  
+  .advisor-title {
+    font-family: Exo;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 0px;
+  }
+  
+  .rasmus {
+    float:none;
+    padding-left: 0px;
+    height: 275px
+  }
+  
+  .rasmus-title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+  }
+  
+  .rasmus-text {
+    font-family: Exo;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 50px;
+  
+  }
+  
+  .anders {
+    float:none;
+    padding-left: 0px;
+    height: 280px
+  }
+  
+  .anders-title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+  }
+  
+  .anders-text {
+    font-family: Exo;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 0px;
+  
+  }
+  
+  .ketil {
+    float:none;
+    padding-left: 0px;
+    height: 300px
+  }
+  
+  .ketil-title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+  }
+  
+  .ketil-text {
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+  
+}
