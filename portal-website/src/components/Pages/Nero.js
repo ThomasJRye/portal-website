@@ -11,6 +11,7 @@ import software from './Images/work-images/Eirik.png'
 import rasmus from './Images/Partners/Rasmus.jpg'
 import ketil from './Images/Partners/Ketil_Røed.jpeg'
 import anders from './Images/Partners/Anders_Brennhagen.jpg'
+import Even from './Images/Partners/Even.jpg'
  
 
 const Nero = () => {
@@ -118,6 +119,14 @@ It is what makes us a team.
                 </h2>
                 <h1 className='ketil-text'>
                     Associate professor in electronics at the university of Oslo                 
+                </h1>
+
+                <img class="Even" src={Even} alt="Even"/>
+                <h2 className='Even-title'>
+                    Evan Dahl               
+                </h2>
+                <h1 className='Even-text'>
+                    Co-founder and CEO of EnableMagic, co-founder and COO of Insj                 
                 </h1>
             </div>
 

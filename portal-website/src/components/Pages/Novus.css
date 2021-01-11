@@ -1,94 +1,117 @@
 @font-face {
     font-family: Exo;
-    src: url(Exo2-Light.ttf);  /* first font == regular */
+    src: url(Exo2-ExtraLight.otf);  /* first font == regular */
   }
-  
-.Title {
-  background-color: rgb(75, 75, 75);
-  font-family: Exo;
+
+.novus {
   color: white;
+  background-color: rgb(75, 75, 75);
   text-align: center;
-  padding: 30px;
-  font-size: 30px
+}
+
+.Title {
+  font-family: Exo;
+  padding: 40px;
+  font-size: 25px
 }  
 
-.pelle-container {
-  background-color: rgb(75, 75, 75);
-
-}
 
 .p {
   font-family: Exo;
-  background-color: rgb(75, 75, 75);
-  color: white;
-  text-align: center;
   padding-top: 250px;
   padding-left: 400px;
   padding-right: 300px;
   padding-bottom: 100px;
-  font-size: 40px
+  font-size: 15px
 }
 
 .pelle {
   float:left; 
-  padding: 90px;
-  height: 800px;
+  padding: 40px;
+  height: 400px;
+}
+
+.pelle-container {
+  font-family: Exo;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
 }
 
 .pelle-text-1 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.pelle-text-3 {
+  padding-top: 15px;
+}
+
+.boom-container {
   font-family: Exo;
-  background-color: rgb(75, 75, 75);
-  color: white;
-  text-align: center;
-  padding-top: 250px;
-  padding-left: 400px;
-  padding-right: 300px;
-  padding-bottom: 100px;
-  font-size: 40px
-}
-
-.pelle-text-2 {
-  font-family: Exo;
-  background-color: rgb(75, 75, 75);
-  color: white;
-  text-align: center;
-  padding-top: 80px;
-  padding-left: 400px;
-  padding-right: 300px;
-  padding-bottom: 200px;
-  font-size: 40px
-}
-
-.launch {
-  float:right; 
-  padding: 40px;
-  padding-right: 100px;
-  background-color: rgb(75, 75, 75);
-  height: 600px;
-}
-
-.launch-container {
-  background-color: rgb(75, 75, 75);
-}
-
-.launch-text {
-  font-family: Exo;
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  padding-top: 220px;
+  font-size: 25px;
+  padding-top: 200px;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 500px;
-  background-color: rgb(75, 75, 75);
+  padding-bottom: 10px;
+}
 
+.boom {
+  float:right; 
+  padding: 30px;
+  height: 400px;
+}
+
+.boom-text-1 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.avionics-container {
+  font-family: Exo;
+  font-size: 25px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+.avionics {
+  float:left; 
+  padding: 40px;
+  height: 400px;
+}
+
+.avionics-text-1 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.vector-container {
+  font-family: Exo;
+  font-size: 25px;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 200px;
+}
+
+.vectorControl {
+  float:right; 
+  padding: 30px;
+  height: 400px;
+}
+
+.vector-text-1 {
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 .join-container {
+  padding-top: 100px;
   font-family: Exo;
-  background-color: rgb(75, 75, 75);
-  color: white;
-  text-align: center;
   font-size: 30px;
   padding-bottom: 100px;
 }
@@ -124,7 +147,7 @@
     font-size: 20px
   }
   
-  .launch {
+  .pelle {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -133,23 +156,120 @@
     float: none;
   }
   
-  .launch-text {
-    
-
-    padding-top: 0px;
+  .pelle-text-1 {
+    padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 0px;
     font-size: 20px
+  }
   
+  .pelle-text-2 {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 20px
+  }
+  .pelle-text-3 {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 20px
+  }
+
+  .boom-container {
+    padding-top: 20px;
+  }
+
+  .boom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    height: 220px;
+    float: none;
+  }
+  
+  .boom-text-1 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 20px
+  }
+  
+  .boom-text-2 {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 20px
+  }
+
+  .avionics-container {
+    padding-top: 20px;
+  }
+
+  .avionics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    height: 220px;
+    float: none;
+  }
+  
+  .avionics-text-1 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 20px
+  }
+  
+  .avionics-text-2 {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 20px
+  }
+
+  .vector-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .vectorControl {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    height: 220px;
+    float: none;
+  }
+  
+  .vector-text-1 {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 20px
+  }
+  
+  .vector-text-2 {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    font-size: 20px
   }
   
   .join-container {
     font-family: Exo;
-    background-color: rgb(75, 75, 75);
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    padding-bottom: 100px;
+          font-size: 30px;
+    padding-bottom: 30px;
   }
 }

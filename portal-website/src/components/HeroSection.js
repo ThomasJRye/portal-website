@@ -39,7 +39,7 @@ function HeroSection() {
         <>
             <div className='hero-container'>
                 <div className='title'>
-                    <h1>Expanding the portal to space</h1> 
+                    <h1>Expanding the Portal to Space</h1> 
                 </div>
             </div>
             <div className='nero-container'>
@@ -68,9 +68,6 @@ function HeroSection() {
                     <p>
                         The new generation of launchers are rapidly reducing the cost of access to space. Portal Space prepares and inspires students to take their place in the space industry.
     We don’t know what the future of space travel will look like. All we know is that we are going to be a part of it.
-                    </p>
-                    <p>
-                        There is no destiny, just stubborn people.                
                     </p>
                     <br />
                     <p>
@@ -121,19 +118,6 @@ They supply a wide range of quality products and systems within their business a
                     <img class="Meteor" src={Meteor} alt="Meteor"/>
                     <img class="Maskin" src={Maskin} alt="Maskin"/>
 
-
-
-                    {/*
-                    
-                    <br/>
-                    
-                    <img class="UIO" src={UiO} alt="UIO"/>        
-                    <img class="Insj" src={Insj} alt="Insj"/>
-                    <img class="Dspace" src={Dspace} alt="Dspace"/>
-                    <img class="OsloMET" src={OsloMET} alt="OsloMET"/>
-                    <img class="Meteor" src={Meteor} alt="Meteor"/>
-                    <img class="Kjeller" src={Kjeller} alt="Kjeller"/>                
-                    */}
                 </div>
             </div>
         </>
