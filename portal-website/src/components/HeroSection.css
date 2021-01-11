@@ -192,15 +192,13 @@
 }
 
 .hero-container {
-    background: url('./Pages/Images/EarthMobile.jpg');
+    background: url('./Pages/Images/EarthMobile.jpg') fixed;
     height: 90vh;
-    z-index:-1;
 }
 
 .nero-container {
     background: url('./Pages/Images/mk2Mobile.png');
     background-size: cover;
-    z-index: 1;
 }
 
 .nero-title {
@@ -221,7 +219,6 @@
   background: url('./Pages/Images/novusFrame.jpg');
   position: left;
   height:90vh;
-  z-index:-1;
   margin-top: 0;
 }
 
@@ -257,7 +254,6 @@
     background-color:rgb(53, 53, 53);
     padding-left: 10px;
     padding-right: 10px;
-    z-index: -1;
     
 }
 

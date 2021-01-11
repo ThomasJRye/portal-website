@@ -12,10 +12,14 @@
 .Title {
   font-family: Exo;
   padding: 40px;
-  font-size: 25px
+  font-size: 25px;
 }  
 
+.Title p {
+  margin-left: 15%;
+  margin-right: 15%;
 
+}
 .p {
   font-family: Exo;
   padding-top: 250px;
@@ -43,16 +47,23 @@
 .pelle-text-1 {
   padding-top: 40px;
   padding-bottom: 10px;
+  padding-right: 15%;
+}
+
+.pelle-text-2 {
+  padding-top: 15px;
+  padding-right: 15%;
 }
 
 .pelle-text-3 {
   padding-top: 15px;
+  padding-right: 15%;
 }
 
 .boom-container {
   font-family: Exo;
   font-size: 25px;
-  padding-top: 200px;
+  padding-top: 300px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 10px;
@@ -67,12 +78,19 @@
 .boom-text-1 {
   padding-top: 50px;
   padding-bottom: 10px;
+  padding-left: 15%;
+}
+
+.boom-text-2 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  padding-left: 15%;
 }
 
 .avionics-container {
   font-family: Exo;
   font-size: 25px;
-  padding-top: 200px;
+  padding-top: 300px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 10px;
@@ -92,7 +110,7 @@
 .vector-container {
   font-family: Exo;
   font-size: 25px;
-  padding-top: 200px;
+  padding-top: 300px;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 200px;
@@ -107,6 +125,12 @@
 .vector-text-1 {
   padding-top: 50px;
   padding-bottom: 10px;
+  padding-left: 15%;
+}
+
+.vector-text-2 {
+  padding-top: 10px;
+  padding-left: 15%;
 }
 
 .join-container {

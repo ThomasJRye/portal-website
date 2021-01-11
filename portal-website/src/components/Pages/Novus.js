@@ -37,7 +37,7 @@ const Novus = () => {
                 <p className='boom-text-1'>
                     We have many different fields, and whether you like to spend your time in the pyrotechnic lab or on the soldering bench. We have room for you!
                 </p>
-                <p className='pelle-text-2'>
+                <p className='boom-text-2'>
                     We use the 40-10 rule, which boils down to a lot of testing. This is usually very fun! and you might end ut with results you did not predict  
                 </p>
             </div>
