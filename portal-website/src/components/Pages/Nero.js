@@ -16,7 +16,7 @@ import Even from './Images/Partners/Even.jpg'
 
 const Nero = () => {
     return (
-        <>
+        <div className='Nero'>
             <div className='Title'>
                 <h1>Project Nero</h1>
             </div>
@@ -148,7 +148,7 @@ It is what makes us a team.
                         </Button>}
                 </div>
             </div>
-        </>
+        </div>
     );
 }
  

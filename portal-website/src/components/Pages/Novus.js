@@ -8,7 +8,7 @@ import './Novus.css'
 
 const Novus = () => {
    return (
-       <>
+       
        <div className='novus'>
             <div className='Title'>
                 <h1>Project Novus</h1>
@@ -81,7 +81,7 @@ const Novus = () => {
                 </div>
             </div>
         </div>
-       </>
+       
    );
 }
  

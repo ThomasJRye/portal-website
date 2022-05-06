@@ -15,10 +15,8 @@ import Novus from './components/Pages/Novus.js'
 
 function App() {
   return (
-    <>
     <Router>
       <Navbar />
-      
       <Switch>
         <Route path='/' exact component=
         {Home} />
@@ -36,7 +34,6 @@ function App() {
       <Footer />
     </Router>
       
-    </>
   );
 }
 

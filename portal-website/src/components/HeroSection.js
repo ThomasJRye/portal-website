@@ -36,7 +36,7 @@ function HeroSection() {
     };
 
     return (
-        <>
+        <div className='HeroSection'>
             <div className='hero-container'>
                 <div className='title'>
                     <h1>Expanding the Portal to Space</h1> 
@@ -120,7 +120,7 @@ They supply a wide range of quality products and systems within their business a
 
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
