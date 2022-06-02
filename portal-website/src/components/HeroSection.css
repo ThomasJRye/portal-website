@@ -9,7 +9,7 @@
     background: url('./Pages/Images/Earth.jpg') center center/cover
     no-repeat fixed;
     background-size: cover;
-    height: 100vh;
+    height: 46vh;
     z-index:-3;
 }
 
